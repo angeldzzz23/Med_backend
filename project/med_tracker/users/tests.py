@@ -9,7 +9,7 @@ from users import *
 # Create your tests here.
 
 
-
+# tests created
 class UserTestModel(DjangoModelFactory):
     name = Faker('roger')
     email = Faker('email.com')
